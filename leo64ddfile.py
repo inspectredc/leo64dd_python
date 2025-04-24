@@ -2,7 +2,8 @@
 #   64DD File Module + Conversion
 #
 
-import sys, leo64dd
+from . import leo64dd
+import sys
 
 size_format_ndd = 0x3DEC800
 size_format_mame = 0x435B0C0
